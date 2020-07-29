@@ -123,5 +123,6 @@ Pod::Spec.new do |spec|
 
   # spec.requires_arc = true
   # spec.swift_versions = "5.0"
+  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
 end
